@@ -1,0 +1,35 @@
+<html>
+<body>
+	<table>
+	<tr>
+<form action="file_upload.php" method="post" enctype="multipart/form-data" align="center">
+	<tr>Name : <input type="text" name="fname"/> <br><br></tr> 
+	<tr>Exam No: <input type="text" name="examno"> <br></tr>
+	<tr><h3> Subjects : <br> </h3>
+	PHP : <input type="text" name="php" width= "10px"><br>
+	JAVA: <input type="text" name="java"> <br>
+	PYTHON: <input type="text" name="python"> <br>
+	ISP: <input type="text" name="isp"><br>
+	CNS: <input type="text" name="cns"> <br> 
+	<br></tr>
+	Branch:<br>
+   <select name="Course">
+  <option value="MCA">Mca</option>
+  <option value="MBA">MBA</option>
+  <option value="ENGINEERING">ENGINEERING </option>
+  </select>
+  <br>
+  Semester : <br>
+   SEM1 : <input type="radio" name="radio">
+   SEM2 : <input type="radio" name="radio">
+   SEM3 : <input type="radio" name="radio">
+   SEM4 : <input type="radio" name="radio">
+   SEM5 : <input type="radio" name="radio">
+   SEM6 : <input type="radio" name="radio">
+   <br>
+    Select File:  
+         <input type="file" name="fileToUpload"/>  
+     <input type="submit" value="Upload Image" name="submit"/>  
+</form>
+</body>
+</html>
